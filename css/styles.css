@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Indie Flower', cursive;
+    color: #E36387;
+    font-size: 5.625rem;
+    margin-top:50px;
+    margin-bottom: 0;
+    line-height: 2;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 1.8rem;
+    color: #E36387;
+}
+
+h3 {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #F2AAAA;
+}
+
+hr {
+    background-color: transparent;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 8px;
+    border-color: lightgray;
+    width: 5%;
+}
+
+/* DIV SECTION */
+
+.top-container {
+    background-color: #DDF3F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 28%;
+    top: 10%
+}
+
+.bottom-cloud {
+    position:absolute;
+    left: 25%;
+}
+
+.profile {
+    width: 50%;
+    margin: 0 auto 5% auto;
+}
+
+.skills {
+    margin-top: 5%;
+}
+
+.skill-row {
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-me {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bottom-container {
+    background-color: #6ab3ce;
+    height: 100px;
+    margin: 0;
+    padding-top: 3%;
+}
+
+/* ASSETT DESIGN */
+
+.profile-pic {
+    width: 25%;
+    margin: 80px 0 20px 0;
+}
+
+.computer-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilly-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #317a95;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.footer-note {
+    font-size: 0.7rem;
+    color: lightcyan;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #317a95 0%, #6ab3ce 100%);
+}
